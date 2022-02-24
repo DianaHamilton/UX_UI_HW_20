@@ -1,9 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
+
 /* Navigation styles */
 .logo {
   float: left; 
@@ -80,8 +75,6 @@
 
 .topnav-right {
   float: right;
- 
-  
 }
 
 .inline-block {
@@ -89,17 +82,6 @@
     display: inline-block;
   }
 
-  .card {
-    display: inline-block;
-    background-color:  white; 
-    border-radius: 5px;
-    height: 15px;
-    width: 100px;
-    margin: 10px;
-    margin-top: 10;
-   
-  }
-  
 .burger{
  display: none;
 }
@@ -130,10 +112,6 @@
   padding: 15px;
   display: none;
   transition: all;
-}
-.hiddenSlide {
-  display: none;
-  min-height: 428px;
 }
 
  .active {
@@ -275,11 +253,7 @@ button:hover {
 
 
 
-.container { 
-  height: 200px;
-  position: relative;
-  position: relative;
-}
+
 
 .center {
   display: flex;
@@ -303,6 +277,10 @@ button:hover {
       top: 0;
       left: 0; 
   }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
 
   .hero-text {
     text-align: center;
@@ -321,9 +299,36 @@ button:hover {
  /* Mission  
  Bootstrap 4’s col system_jumbotron */
 
+.lead{
+text-align: left;
+font-family: Open Sans;
+font-size: 16px;
+width: 730;
+}
+.display-4{
+  text-align: left;
+  color: #6C6C6C;
+  font-size: 35px;
+}
+.Rectangle{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top:-50px;
+}
 
-
+.jumbotron {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 100px;
   
+  margin-top: -30px;
+}
+
+
+
  
   /* Footer Styles */
   .hero-footer-image {
