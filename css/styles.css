@@ -260,37 +260,103 @@ button:hover {
 }
 
 
-/* Heading text */
-.analys{
-width: auto;
-height: auto;
-left: 165px;
-top: 34px;
+      /* Heading text */
+      .analys{
+      width: auto;
+      height: auto;
+      left: 165px;
+      top: 34px;
 
-font-family: Arsenal;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-/* identical to box height */
+      font-family: Arsenal;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 35px;
+      /* identical to box height */
 
-text-align: center;
-text-transform: capitalize;
+      text-align: center;
+      text-transform: capitalize;
+      color: #000000;
+      padding-bottom: 40px;
+      }
 
-color: #000000;
-padding-bottom: 40px;
+      .blackHeading{
+      width: auto;
+      height: auto;
+      left: 165px;
+      top: 34px;
+      font-family: Arsenal;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 35px;
+      padding-top: 30px;
+      padding-bottom: 60px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #000000;
+      padding-bottom: 40px;
+      }
+
+      .blackHeading_light{
+        width: auto;
+        height: auto;
+        left: 168px;
+        top: 5898px;
+        font-family: Arsenal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 28px;
+        /* identical to box height */
+        text-align: center;
+        text-transform: capitalize;
+        color: #545454;
+        padding-top: 60px;
+      }
+
+      .textContent {
+        margin-top: 300px;
+       
+      }
+
+      .GreyHeading{
+        width: auto;
+        height: auto;
+      left: 168px;
+      top: 5205px;
+
+      font-family: Arsenal;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 45px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #6A6262;
+      padding-bottom: 30px;
+      }
+
+#BGcontent{
+  background-color: #ebebeb;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+#BGcontent1{
+  background-color: #ebebeb;
+  padding-top: 100px;
+  padding-bottom:0px;
+}
+
+#BGcontent3{
+  background-color: none;
+  padding-top: 100px;
+  padding-bottom:140px;
 }
 
 
 
-
-
-
-
-
-
-
-/** Note that we can use counter-increment in :before psuedo element **/
+/** :before psuedo element **/
 div.list div:before {
   counter-increment: list-number;
   content: counter(list-number);
